@@ -64,6 +64,20 @@ with st.sidebar:
         - 🟢 **Low Risk**: Variance ≤ {low_tolerance}
     """)
 
+    # Real-World Example
+    st.subheader("🛠️ Real-World Example")
+    st.markdown("""
+    A factory produces steel rods with a **target length of 100 mm**.
+    
+    - ✅ If **variance is small**, most rods fall within **±1 mm tolerance** (acceptable range).
+    - ⚠️ If **variance increases**, more rods exceed the allowed limit, leading to:
+        - **Rework**
+        - **Scrap**
+        - **Wasted resources**
+
+    Keeping variance low ensures consistent quality and reduces production loss.
+    """)
+
 # Data Functions (Updated for Variance)
 def calculate_variance(measurements):
     """Calculate variance for given measurements"""
