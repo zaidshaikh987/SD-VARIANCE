@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+streamlit
+yfinance
+pandas
+numpy
+plotly
+google-generativeai
